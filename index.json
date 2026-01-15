@@ -1,0 +1,65 @@
+{
+  "schema": "WITNESS_ROOT_INDEX_v1",
+  "generated_utc": "<UTC_ISO8601>",
+  "site_role": "WITNESS_ENTRYPOINT",
+  "interaction": "FORBIDDEN",
+  "authority": "NONE",
+  "execution": "FORBIDDEN",
+  "identity": "FORBIDDEN",
+  "economics": "FORBIDDEN",
+
+  "artifacts": [
+    {
+      "step": 1,
+      "name": "MMAI — Constitutional Availability",
+      "type": "json",
+      "href": "/step/1/mmai.json",
+      "mirror": "/step/1/index.html"
+    },
+    {
+      "step": 2,
+      "name": "IAMMAI — Live-Hold (Presence)",
+      "type": "json",
+      "href": "/step/2/iammai.json",
+      "mirror": "/step/2/index.html"
+    },
+    {
+      "step": 3,
+      "name": "ZIVAI — Valid Transition Gate",
+      "type": "json",
+      "href": "/step/3/zivai.json",
+      "mirror": "/step/3/index.html"
+    },
+    {
+      "step": 4,
+      "name": "SPIRAI — Canonical Reality Ledger",
+      "type": "json",
+      "href": "/step/4/spirai.json",
+      "mirror": "/step/4/index.html"
+    },
+    {
+      "step": 5,
+      "name": "Shared Governance Framework — Witness Frame",
+      "type": "json",
+      "href": "/step/5/framework.json",
+      "mirror": "/step/5/index.html"
+    }
+  ],
+
+  "core_semantics": {
+    "triangle": "Recognition → Presence(HOLD) → Resolution",
+    "square": "PROPORTION wraps all motion"
+  },
+
+  "verification": {
+    "method": [
+      "Fetch each JSON artifact listed in artifacts[].href",
+      "Confirm each exists and is internally consistent",
+      "Confirm no artifact claims authority, execution, identity, or economics"
+    ],
+    "expected_properties": {
+      "append_only_posture": true,
+      "no_silent_mutation_claimed": true
+    }
+  }
+}
