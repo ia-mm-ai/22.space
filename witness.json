@@ -1,0 +1,11 @@
+{
+  "role": "witness",
+  "scope": "experimental_field",
+  "description": "Exploratory space. No canonical output.",
+  "witness_of": "https://third.site/root.json",
+  "instances_index": "https://third.site/instances/index.json",
+  "authority": "none",
+  "mutation": "forbidden",
+  "status": "derivative",
+  "updated_at": "2026-01-16T14:10:00Z"
+}
